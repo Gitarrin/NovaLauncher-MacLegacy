@@ -20,6 +20,7 @@
 		8684E52C2F126D9C007BBA3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684E50B2F126D9C007BBA3A /* Cocoa.framework */; };
 		8684E5342F126D9C007BBA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8684E5322F126D9C007BBA3A /* InfoPlist.strings */; };
 		8684E5362F126D9C007BBA3A /* NovarinLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8684E5352F126D9C007BBA3A /* NovarinLauncherTests.m */; };
+		86B5BA0F2F1496990069ECEC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 86B5BA0E2F1496990069ECEC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8684E5312F126D9C007BBA3A /* NovarinLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NovarinLauncherTests-Info.plist"; sourceTree = "<group>"; };
 		8684E5332F126D9C007BBA3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8684E5352F126D9C007BBA3A /* NovarinLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovarinLauncherTests.m; sourceTree = "<group>"; };
+		86B5BA0E2F1496990069ECEC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		8684E4FF2F126D9C007BBA3A = {
 			isa = PBXGroup;
 			children = (
+				86B5BA0E2F1496990069ECEC /* README.md */,
 				8684E5112F126D9C007BBA3A /* NovarinLauncher */,
 				8684E52F2F126D9C007BBA3A /* NovarinLauncherTests */,
 				8684E50A2F126D9C007BBA3A /* Frameworks */,
@@ -242,6 +245,7 @@
 			files = (
 				8684E5162F126D9C007BBA3A /* InfoPlist.strings in Resources */,
 				8684E5242F126D9C007BBA3A /* Images.xcassets in Resources */,
+				86B5BA0F2F1496990069ECEC /* README.md in Resources */,
 				8684E51C2F126D9C007BBA3A /* Credits.rtf in Resources */,
 				8684E5222F126D9C007BBA3A /* MainMenu.xib in Resources */,
 			);
