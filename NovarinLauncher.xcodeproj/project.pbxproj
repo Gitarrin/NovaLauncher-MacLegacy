@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8651821E2F1315F800E89604 /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8651821D2F1315F800E89604 /* FileDownloader.m */; };
+		865182212F146F8E00E89604 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 865182202F146F8E00E89604 /* Logger.m */; };
 		8684E50C2F126D9C007BBA3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684E50B2F126D9C007BBA3A /* Cocoa.framework */; };
 		8684E5162F126D9C007BBA3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8684E5142F126D9C007BBA3A /* InfoPlist.strings */; };
 		8684E5182F126D9C007BBA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8684E5172F126D9C007BBA3A /* main.m */; };
@@ -31,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8651821C2F1315F800E89604 /* FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		8651821D2F1315F800E89604 /* FileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		8651821F2F146F8E00E89604 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		865182202F146F8E00E89604 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
 		8684E5082F126D9C007BBA3A /* NovarinLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovarinLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8684E50B2F126D9C007BBA3A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8684E50E2F126D9C007BBA3A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -120,6 +126,10 @@
 				8684E5202F126D9C007BBA3A /* MainMenu.xib */,
 				8684E5232F126D9C007BBA3A /* Images.xcassets */,
 				8684E5122F126D9C007BBA3A /* Supporting Files */,
+				8651821C2F1315F800E89604 /* FileDownloader.h */,
+				8651821D2F1315F800E89604 /* FileDownloader.m */,
+				8651821F2F146F8E00E89604 /* Logger.h */,
+				865182202F146F8E00E89604 /* Logger.m */,
 			);
 			path = NovarinLauncher;
 			sourceTree = "<group>";
@@ -252,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8651821E2F1315F800E89604 /* FileDownloader.m in Sources */,
 				8684E51F2F126D9C007BBA3A /* AppDelegate.m in Sources */,
 				8684E5182F126D9C007BBA3A /* main.m in Sources */,
+				865182212F146F8E00E89604 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NovarinLauncher/NovarinLauncher-Prefix.pch";
 				INFOPLIST_FILE = "NovarinLauncher/NovarinLauncher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NovarinLauncher/NovarinLauncher-Prefix.pch";
 				INFOPLIST_FILE = "NovarinLauncher/NovarinLauncher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +480,7 @@
 				8684E53B2F126D9C007BBA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8684E53C2F126D9C007BBA3A /* Build configuration list for PBXNativeTarget "NovarinLauncherTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +489,7 @@
 				8684E53E2F126D9C007BBA3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
