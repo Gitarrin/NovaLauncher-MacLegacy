@@ -39,7 +39,7 @@
     [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
     NSString *dateString = [dateFormatter stringFromDate:currentDate];
     
-    NSURL *logFileURL = [appFolder URLByAppendingPathComponent:[NSString stringWithFormat:@"log_%@.json", dateString]];
+    NSURL *logFileURL = [appFolder URLByAppendingPathComponent:[NSString stringWithFormat:@"log_%@.txt", dateString]];
     
     BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:logFileURL.path];
 
@@ -81,7 +81,7 @@
     [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
     NSString *dateString = [dateFormatter stringFromDate:currentDate];
     
-    NSLog(@"Log file saved to %@.json", dateString);
+    NSLog(@"Log file saved to %@.txt", dateString);
     [self.fileHandle closeFile];
 }
 @end
