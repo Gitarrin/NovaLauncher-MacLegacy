@@ -45,6 +45,8 @@
         [self.progressBar setIndeterminate:indeterminateProgressBar];
         if (indeterminateProgressBar) {
             [self.progressBar startAnimation:nil];
+        } else {
+            [self.progressBar stopAnimation:nil];
         }
     });
 }
